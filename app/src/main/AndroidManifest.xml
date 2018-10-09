@@ -33,7 +33,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".main6.Main4Activity"
-            android:label="@string/title_activity_main4"/>
+            android:label="@string/title_activity_main4" />
+        <activity android:name=".fb.FbActivity"></activity>
     </application>
 
 </manifest>
