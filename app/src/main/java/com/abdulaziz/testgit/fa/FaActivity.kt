@@ -1,7 +1,8 @@
-package com.abdulaziz.testgit
+package com.abdulaziz.testgit.fa
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.abdulaziz.testgit.R
 
 class FaActivity : AppCompatActivity() {
 

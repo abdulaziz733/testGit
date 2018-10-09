@@ -34,7 +34,7 @@
         <activity
             android:name=".main6.Main4Activity"
             android:label="@string/title_activity_main4" />
-        <activity android:name=".FaActivity"></activity>
+        <activity android:name=".fa.FaActivity"></activity>
     </application>
 
 </manifest>
