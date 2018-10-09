@@ -29,7 +29,11 @@
             android:name=".main4.Main3Activity"
             android:label="@string/title_activity_main3"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".main5.HeheActivity"></activity>
+        <activity android:name=".main5.HeheActivity" />
+        <activity
+            android:name=".main6.Main4Activity"
+            android:label="@string/title_activity_main4"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
