@@ -14,8 +14,9 @@ class FaActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fa)
-        Toast.makeText(this, "test", Toast.LENGTH_SHORT).show()
-        Toast.makeText(this, "test", Toast.LENGTH_SHORT).show()
-        Toast.makeText(this, "test", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "123", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "456", Toast.LENGTH_SHORT).show()
+        
+        Toast.makeText(this, "789", Toast.LENGTH_SHORT).show()
     }
 }
