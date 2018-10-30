@@ -25,6 +25,28 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    flavorDimensions "app", "server"
+    productFlavors {
+        app1 {
+            dimension "app"
+        }
+        app2 {
+            dimension "app"
+        }
+        app3 {
+            dimension "app"
+        }
+        dev {
+            dimension "server"
+        }
+        staging {
+            dimension "server"
+        }
+        production {
+            dimension "server"
+        }
+    }
     externalNativeBuild {
         cmake {
             path "CMakeLists.txt"
@@ -32,7 +54,18 @@ android {
     }
 }
 
+configurations {
+    client1DevCompile
+    client1StagingCompile
+    client1ProductionCompile
+    client2DevCompile
+    client2StagingCompile
+    client2ProductionCompile
+}
+
 dependencies {
+
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.android.support:appcompat-v7:28.0.0'
